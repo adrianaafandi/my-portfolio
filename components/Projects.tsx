@@ -8,7 +8,8 @@ const projects = [
     title: "Healthful Plates - FYP (In development)",
     description: "The Healthful Plates platform is designed to help users discover and share healthy recipes effortlessly. It provides nutrition insights, an interactive ingredients cart, and text-to-speech functionality for enhanced accessibility. Built using Next.js, Prisma, and MongoDB, the system ensures efficient data management and a seamless user experience.",
     image: "/fyp.png?height=200&width=300",
-    tags: ["Next.js", "TypeScript", "Node.js", "MongoDB", "Prisma"],
+    tags: ["Next.js", "TypeScript", "Node.js", "Honojs", "MongoDB", "Prisma"],
+    liveLink:"https://healthful-plates.vercel.app/",
     githubLink: "https://github.com/adrianaafandi/healthful-plates",
   },
   {
@@ -18,6 +19,13 @@ const projects = [
     tags: ["Laravel", "PHP", "Blade", "Laragon"],
     liveLink: "https://kafamanagementsystem.io/login",
     githubLink: "https://github.com/adrianaafandi/KAFA-Management-System",
+  },
+  {
+    title: "File Management System",
+    description: "A hands-on project created for learning and experimenting with Vue.js. This system allows users to easily manage files by providing functionalities to upload, view, download, edit, and delete files. Built with Vue.js for a smooth and interactive user experience, and powered by MongoDB for storage and Prisma for seamless database interaction.",
+    image: "/Vue.png?height=200&width=300",
+    tags: ["Vuejs", "Javascript", "Honojs", "MongoDB", "Prisma"],
+    githubLink: "https://github.com/adrianaafandi/file-management-system",
   },
 ]
 
